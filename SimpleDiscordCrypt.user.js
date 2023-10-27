@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         SimpleDiscordCrypt
-// @namespace    https://gitlab.com/An0/SimpleDiscordCrypt
+// @namespace    https://github.com/Steanky/SDC
 // @version      1.7.2.1
 // @description  I hope people won't start calling this SDC ^_^
 // @author       An0
 // @license      LGPLv3 - https://www.gnu.org/licenses/lgpl-3.0.txt
-// @downloadURL  https://gitlab.com/An0/SimpleDiscordCrypt/raw/master/SimpleDiscordCrypt.user.js
-// @updateURL    https://gitlab.com/An0/SimpleDiscordCrypt/raw/master/SimpleDiscordCrypt.meta.js
-// @icon         https://gitlab.com/An0/SimpleDiscordCrypt/raw/master/logo.png
+// @downloadURL  https://raw.githubusercontent.com/Steanky/SDC/master/SimpleDiscordCrypt.user.js
+// @updateURL    https://raw.githubusercontent.com/Steanky/SDC/master/SimpleDiscordCrypt.meta.js
+// @icon         https://raw.githubusercontent.com/Steanky/SDC/master/logo.png
 // @match        https://*.discord.com/channels/*
 // @match        https://*.discord.com/activity
 // @match        https://*.discord.com/login*
@@ -19,7 +19,7 @@
 // @grant        unsafeWindow
 // @grant        GM_xmlhttpRequest
 // @connect      cdn.discordapp.com
-// @connect      gitlab.com
+// @connect      raw.githubusercontent.com
 // ==/UserScript==
 
 // Credits for inspiration to the original DiscordCrypt
@@ -27,7 +27,7 @@
 (function () {
   'use strict';
 
-  const BlacklistUrl = 'https://gitlab.com/An0/SimpleDiscordCrypt/raw/master/blacklist.txt';
+  const BlacklistUrl = 'https://raw.githubusercontent.com/Steanky/SDC/master/blacklist.txt';
 
   const SavedLocalStorage = typeof localStorage !== 'undefined' ? localStorage : null;
   const FixedCsp = typeof CspDisarmed !== 'undefined' ? CspDisarmed : false;
