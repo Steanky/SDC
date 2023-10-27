@@ -3,7 +3,7 @@
  * @version 1.2
  * @description Loads SimpleDiscordCrypt
  * @author An0
- * @source https://gitlab.com/An0/SimpleDiscordCrypt
+ * @source https://github.com/Steanky/SDC
  */
 
 /*@cc_on
