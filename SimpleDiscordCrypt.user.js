@@ -1481,7 +1481,7 @@ ${HeaderBarSelector}, ${HeaderBarChildrenSelector} { overflow: visible !importan
       return 0;
     }
 
-    modules.CloudUploadPrototype = findModule(x => x.prototype?.uploadFileToCloud && x.prototype.upload)?.prototype;
+    modules.CloudUploadPrototype = findModuleByUniqueProperties(['CloudUpload'])?.CloudUpload.prototype;
     if (modules.CloudUploadPrototype == null) {
       if (final) Utils.Error('CloudUpload not found.');
       return 0;
