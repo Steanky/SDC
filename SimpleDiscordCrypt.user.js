@@ -4060,7 +4060,7 @@ ${HeaderBarSelector}, ${HeaderBarChildrenSelector} { overflow: visible !importan
         author: {
           name: '-----ENCRYPTED MESSAGE-----',
           icon_url: 'https://i.imgur.com/pFuRfDE.png',
-          url: 'http://gitlab.com/An0/SimpleDiscordCrypt',
+          url: 'https://github.com/Steanky/SDC',
         },
         description: payload,
         footer: {
